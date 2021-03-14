@@ -14,14 +14,15 @@ body{
 /*********** NAV-BAR **********/
 /*****************************/
 #main-nav{
-   /* position: fixed;*/
+  position: fixed;
     background-color: #111111;
     width: 100%;
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    z-index: 3;
+
 }
 #main-nav .elm{
     padding: 1%;
@@ -39,7 +40,6 @@ body{
 #main-nav #nav{
     text-align: end;
 }
-
 #main-nav #nav ul li {
     width: 100%;
     display: inline;
@@ -54,21 +54,18 @@ body{
 #main-nav #nav ul li:nth-child(1) a{
     font-weight: bolder;
 }
-
 /*********** HBM **********/
-
 #hbm{
     display: none;
     visibility: hidden;
 }
-
-
 #hbm-nav{
     position: fixed;
     background-color: black;
     width: 100vw;
     height: 0vh;
-    z-index: 2;
+    z-index: 3;
+    
     visibility: hidden;
 }
 #hbm-nav #close{
@@ -91,7 +88,6 @@ body{
 #hbm-nav ul li{
     margin: 2% 0%;
 }
-
 #hbm-nav ul li a{
     color: white;
     font-size: 5vw;
@@ -116,20 +112,81 @@ body{
         visibility: hidden;
     }
 }
-
-
 /*******************************/
 /*********** HEADER **********/
 /*****************************/
 
+
+/****** PHOTO GRID ****/
+header .row {
+    background-color: green;
+    width: 100%;
+    
+    border: 2px solid white;
+    display: flex;
+}
+header .row:nth-child(2) {
+    height: 60vh;
+}
+header .row:nth-child(3) {
+    height: 40vh;
+}
+header .row div{
+    filter: brightness(80%);
+    z-index: 1;
+}
+header #r1 #cel1{
+    background-color: rgb(45, 231, 45);
+    width: 70%;
+    border: 2px solid white;
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic1.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+header #r1 #cel2{
+    background-color: rgb(45, 231, 45);
+    width: 30%;
+    border: 2px solid white;
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic2.png');
+    background-position: center;
+    background-size: cover;
+}
+header #r2 #cel1{
+    background-color: rgb(45, 231, 45);
+    width: 40%;
+    border: 2px solid white;
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic3.png');
+    background-position: center;
+    background-size: cover;
+}
+header #r2 #cel2{
+    background-color: rgb(13, 245, 13);
+    width: 40%;
+    border: 2px solid white;
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic4.png');
+    background-position: center;
+    background-size: cover;
+}
+header #r2 #cel3{
+    background-color: rgb(0, 255, 0);
+    width: 20%;
+    border: 2px solid white;
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic5.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/***** TXT *****/
 #txt-welc{
     position: absolute;
-    z-index: 1;
-    top: 40%;
-    left: 30%;
+    top: 20%;
+    left: 10%;
+    z-index: 2;
+
 }
 #txt-welc h1{
-    color: white; font-size:4vw;
+    color: white; font-size:3vw;
     font-family: Poppins;
     font-weight: lighter;
 
@@ -148,8 +205,7 @@ height: 10px;
     display: block;
     height: 10px;
     right: -20px;
-    }
-
+}
 /*******************************/
 /*********** SEP **********/
 /*****************************/
@@ -159,11 +215,12 @@ height: 10px;
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 30vh;
+    margin: 5% 0%;
 }
 .SEP .cnter{
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 .SEP .cnter h1{
     color: white; font-size:4vw;
@@ -177,12 +234,191 @@ height: 10px;
     background-color: white;
     display: block;
     margin: auto;
+}
+
+/******************************************************/
+/************ MAIN *****************/
+/******************************************************/
+.m-blc{
+    width: 100%;
+    height: fit-content;
+    padding: 1% 0%;
+    /*height: 1375px;*/
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0%;
+}
+.m-blc .blc-1 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #a67d73 50%, #ffffff 50%);
+}
+.m-blc .blc-1 .Mimg {
+    width: 90%;
+    padding-top: 1%;
+    padding-left: 2%;
+    z-index: -1;
+    display: flex;
+}
+.m-blc .blc-1  .Mimg img{
+    width: 100%;
+    height: 100%;
+}
+.m-blc .blc-1 .txt {
+    background-color: black;
+    position: absolute;
+    width: 30%;
+    color: wheat;
+    margin-top: 10%;
+    padding: 2%;
+    background: rgba(50, 33, 33, 0.4);
+    margin-left: 40%;
+}
+.m-blc .blc-1  .txt h1,p{
+    color: white;
+}
+.m-blc .blc-1  .txt h1{  
+    font-family: Offside;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.m-blc .blc-1  .txt p{  
+    margin-top: 8%;
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    text-align: center;
     
+    color: #FFFFFF;
+    
+    }
+.blc-2{
+        width: 100%;
+        /*height: 1400px;*/
+        height: fit-content;
+        margin: auto;
+        padding: 2% 0%;
+        display: flex;
+        margin-top: -15%;
+        background-color: #A67D73;
+        background-image: linear-gradient(to left, #a67d73 50%, #ffffff 50%);
 }
 
 
 
+ .row-G {
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin: auto;
+  }
+   .row-G .img {
+    height: 50%;
+    border: 5px solid white;
+  }
+
+    .row-G .img-1{
+    background: url('https://cdn.edi-dev.tn/sfaxmedina/pic2.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .row-G .img-2{
+    background: url('https://cdn.edi-dev.tn/sfaxmedina/pic1.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+   .row-G .img-3{
+    background: url('https://cdn.edi-dev.tn/sfaxmedina/pic3.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .row-G .img-4 {
+    background: url('https://cdn.edi-dev.tn/sfaxmedina/pic4.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+
+  
 /******************************************************/
+/************ RESPONSIVE for image grid and text *****************/
+@media screen and (max-width: 600px) {
+    .m-blc .blc-1 .Mimg {
+        width: 100%;
+    }
+    .row-G  {
+        height: 300px; 
+      }
+      
+      .row-G .img{
+          border: 0.5px solid white;
+        height: 50%;  
+      }
+      
+      .row-G .img-1,
+      .row-G .img-4 {
+        width: 24%;
+      }
+      .row-G .img-2,
+      .row-G .img-3 {
+        width: 70%;
+      }
+      .m-blc .blc-1  .txt h1{  
+        font-family: Offside;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .m-blc .blc-1  .txt p{  
+        margin-top: 8%;
+        font-family: Cairo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5vw;
+        text-align: center;
+        color: #FFFFFF;
+        
+        }
+        .m-blc .blc-1 .txt {
+            width: 60%;
+            margin-top: 2%;
+            margin-left: 10%;
+        }
+
+  }
+
+  @media screen and (min-width: 600px) {
+    .row-G  {
+      height: 600px; 
+    }
+    
+    .row-G .img{
+        border: 0.5px solid white;
+      height: 50%;  
+    }
+    
+    .row-G .img-1,
+    .row-G .img-4 {
+      width: 24%;
+    }
+    .row-G .img-2,
+    .row-G .img-3 {
+      width: 70%;
+    }
+  }
 /************ RESPONSIVE *****************/
 @media screen and (max-width:1366px) and (min-width:1024px){
     #main-nav #nav ul li a {
@@ -212,5 +448,17 @@ height: 10px;
     #main-nav .elm{
         width: fit-content;
         padding: 2%;
+    }
+    #txt-welc h1 {
+        color: white;
+        font-size: 6vw;
+        font-family: Poppins;
+        font-weight: lighter;
+    }
+    #txt-welc {
+        position: absolute;
+        top: 34%;
+        left: 10%;
+        z-index: 2;
     }
   }
