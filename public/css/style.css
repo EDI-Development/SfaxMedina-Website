@@ -28,7 +28,7 @@ body{
 }
 #main-nav .elm{
     padding: 1%;
-    width: 75%;
+    width: 65%;
 }
 #main-nav .elm:nth-child(1){
     width: fit-content;
@@ -180,18 +180,21 @@ header #r2 #cel3{
 }
 
 /***** TXT *****/
+.ar{
+    font-family: 'cairo' !important;
+}
 #txt-welc{
     position: absolute;
-    top: 20%;
+    top: 12%;
     left: 10%;
     z-index: 2;
 
 }
 #txt-welc h1{
-    color: white; font-size:3vw;
+    color: white; font-size:2.7vw;
     font-family: Poppins;
     font-weight: lighter;
-
+    text-shadow: 1px 1px black;
 }
 #txt-welc::before{
 content: '';
@@ -454,7 +457,8 @@ height: 10px;
     width: 30%;
     background-color: white;
     height: fit-content;
-    height: 600px;
+    height: 700px;
+    
     word-wrap: break-word;
     padding: 3%;
     padding-bottom: 10%;
@@ -701,7 +705,14 @@ background: linear-gradient(180deg, rgba(221, 221, 221, 0) -22%, rgba(196, 196, 
     .other-m-blc  #Gtitle {
         font-size: 10vw;
         margin-top: -8%;
-}
+    }
+    .other-m-blc .CARDS .Card{
+        height: 380px;
+    }
+    .other-m-blc .CARDS .Card:nth-child(3){
+        height: 800px;
+        padding-bottom: 5%;
+    }
     .other-m-blc .CARDS{
         flex-direction: column;
         text-align: center;
@@ -726,7 +737,8 @@ background: linear-gradient(180deg, rgba(221, 221, 221, 0) -22%, rgba(196, 196, 
         width: 90%;
     }
     #histo .Cel .txt p {
-        font-size: 4vw;
+        font-size: 6vw;
+        line-height: 8vw;
     }
     /*********** Interviews *************/
 
