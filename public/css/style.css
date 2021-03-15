@@ -140,7 +140,7 @@ header #r1 #cel1{
     background-color: rgb(45, 231, 45);
     width: 70%;
     border: 2px solid white;
-    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic1.png');
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/header/pic1.png');
     background-position: center;
     background-size: cover;
     
@@ -149,7 +149,7 @@ header #r1 #cel2{
     background-color: rgb(45, 231, 45);
     width: 30%;
     border: 2px solid white;
-    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic2.png');
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/header/pic2.png');
     background-position: center;
     background-size: cover;
 }
@@ -157,7 +157,7 @@ header #r2 #cel1{
     background-color: rgb(45, 231, 45);
     width: 40%;
     border: 2px solid white;
-    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic3.png');
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/header/pic3.png');
     background-position: center;
     background-size: cover;
 }
@@ -165,7 +165,7 @@ header #r2 #cel2{
     background-color: rgb(13, 245, 13);
     width: 40%;
     border: 2px solid white;
-    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic4.png');
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/header/pic4.png');
     background-position: center;
     background-size: cover;
 }
@@ -173,7 +173,7 @@ header #r2 #cel3{
     background-color: rgb(0, 255, 0);
     width: 20%;
     border: 2px solid white;
-    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/pic5.png');
+    background-image: url('https://cdn.edi-dev.tn/sfaxmedina/header/pic5.png');
     background-position: center;
     background-size: cover;
 }
@@ -329,48 +329,48 @@ height: 10px;
 /****************** P 1 ****************************************/
 
     .row-G .im1P1{
-    background: url('') no-repeat center center;
+    background: url('http://cdn.edi-dev.tn/sfaxmedina/mend/P1/pic2.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   .row-G .im2P1{
-    background: url('') no-repeat center center;
+    background: url('http://cdn.edi-dev.tn/sfaxmedina/mend/P1/pic3.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
    .row-G .im3P1{
-    background: url('') no-repeat center center;
+    background: url('http://cdn.edi-dev.tn/sfaxmedina/mend/P1/pic4.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   .row-G .im4P1 {
-    background: url('') no-repeat center center;
+    background: url('http://cdn.edi-dev.tn/sfaxmedina/mend/P1/pic5.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
 /****************** P 2 ****************************************/
 .row-G .im1P2{
-    background: url('') no-repeat center center;
+    background: url('https://media.discordapp.net/attachments/764435973756157982/820840504777375795/Les_murs_de_sfax.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   .row-G .im2P2{
-    background: url('') no-repeat center center;
+    background: url('https://media.discordapp.net/attachments/764435973756157982/820840289139949588/Les_murs_de_sfax2.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
    .row-G .im3P2{
-    background: url('') no-repeat center center;
+    background: url('https://media.discordapp.net/attachments/764435973756157982/820839949741850654/pic3.png') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   .row-G .im4P2 {
-    background: url('') no-repeat center center;
+    background: url('https://media.discordapp.net/attachments/764435973756157982/820839945925033984/pic2.png') no-repeat center center;
     background-size: cover;
     width: 100%;
     
@@ -378,24 +378,24 @@ height: 10px;
   
 /****************** P 3 ****************************************/
 .row-G .im1P3{
-    background: url('') no-repeat center center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/2/21/Grande_Mosqu%C3%A9e_de_Sfax_0.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   .row-G .im2P3{
-    background: url('') no-repeat center center;
+    background: url('https://www.histoiredesfax.com/wp-content/uploads/2015/01/minaret-grande-mosquee-sfax1.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
    .row-G .im3P3{
-    background: url('') no-repeat center center;
+    background: url('https://www.histoiredesfax.com/wp-content/uploads/2015/01/porte-interieure-grande-mosquee-sfax.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   .row-G .im4P3 {
-    background: url('') no-repeat center center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/%D8%A3%D8%B9%D9%85%D8%AF%D8%A9_%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1_%D8%A8%D8%B5%D9%81%D8%A7%D9%82%D8%B3_01.jpg/220px-%D8%A3%D8%B9%D9%85%D8%AF%D8%A9_%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1_%D8%A8%D8%B5%D9%81%D8%A7%D9%82%D8%B3_01.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
@@ -403,24 +403,24 @@ height: 10px;
 
 /****************** P 4 ****************************************/
 .row-G .im1P4{
-    background: url('') no-repeat center center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Dar_Jallouli_Door.jpg/800px-Dar_Jallouli_Door.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   .row-G .im2P4{
-    background: url('') no-repeat center center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dar_Jallouli_Room.jpg/800px-Dar_Jallouli_Room.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
    .row-G .im3P4{
-    background: url('') no-repeat center center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Dar_Jallouli_alambic.jpg/1920px-Dar_Jallouli_alambic.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   .row-G .im4P4 {
-    background: url('') no-repeat center center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/a/a7/Dar_Jallouli_Courtyard.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
@@ -453,26 +453,37 @@ height: 10px;
     width: 30%;
     background-color: white;
     height: fit-content;
-
+    height: 600px;
     word-wrap: break-word;
     padding: 3%;
     border: 5px solid rgba(166, 125, 115, 0.5);
     
 }
 .other-m-blc .CARDS .Card .shape{
-    width: 40%;
+    width: 100%;
+    border-radius: 10%;
     margin: auto;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+}
+.other-m-blc .CARDS .Card  #S1{
+    background-image: url('https://media.discordapp.net/attachments/764435973756157982/820857946627375124/unknown.png');
+}
+.other-m-blc .CARDS .Card  #S2{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/52/Fondouk_Haddadine.jpg');
+}
+.other-m-blc .CARDS .Card  #S3{
+    background-image: url('https://media.discordapp.net/attachments/764435973756157982/820786514271141899/diwan.jpg?width=526&height=701');
 }
 .other-m-blc .CARDS .Card .shape img{
-    border-radius: 50%;
-    border-bottom-right-radius: 25%;
-    border-bottom-left-radius: 25%;
+border-radius: 10%;
     width: 100%;
 
 }
 .other-m-blc .CARDS .Card .txt{
     
-    padding-top: 6%; 
+    padding-top: 2%; 
 }
 .other-m-blc .CARDS .Card .txt #title{
         font-size: 3vw;
@@ -482,7 +493,7 @@ height: 10px;
         text-align: center;
 }
 .other-m-blc .CARDS .Card .txt p{
-    padding-top: 12%;
+    padding-top: 5%;
     color: black;
     font-size: 1.5vw;
     font-family: Poppins;
@@ -755,3 +766,72 @@ background: linear-gradient(180deg, rgba(221, 221, 221, 0) -22%, rgba(196, 196, 
  
  
      } 
+
+
+
+
+
+
+
+     
+#pub{
+    background-color: #111111;
+    height: fit-content;
+    padding: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+    height: fit-content;
+   position: relative;
+   margin-top: -5px;
+   bottom: -1px;
+}
+#pub div{
+    text-align: center;
+    margin: auto;
+}
+#pub div a{
+    color: white;
+    font-size: 13px;
+    font-family:'poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; 
+}
+#pub #p-cont{
+    padding-bottom: 2px;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+  }
+  .loader-wrapper .warpper {
+    width: 40vw;
+    animation: rot 4s infinite ease-in-out;
+
+  }
+  @keyframes rot {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    50% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+  .loader-wrapper .warpper img{
+      width: 100%;
+      height: 100%;
+
+  }
