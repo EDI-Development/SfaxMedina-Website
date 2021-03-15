@@ -3,17 +3,17 @@ $(document).ready(() => {
     $('#hbm').click(() => {
         $('#hbm-nav').css({
             visibility: 'visible',
-            animation: 'openHBM 2s forwards'
+            animation: 'openHBM 0.4s forwards'
         })
     });
     $('#close').click(() => {
         $('#hbm-nav').css({
-            animation: 'closeHBM 1s forwards'
+            animation: 'closeHBM 0.1s forwards'
         })
     });
     $('.go').click(() => {
         $('#hbm-nav').css({
-            animation: 'closeHBM 1s forwards'
+            animation: 'closeHBM 0.1s forwards'
         })
     });
 });
