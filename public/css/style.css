@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     color: black;
+    scroll-behavior: smooth;
 }
 body{
     height: 5000px;
@@ -281,7 +282,7 @@ height: 10px;
     font-family: Offside;
     font-style: normal;
     font-weight: normal;
-    font-size: 2vw;
+    font-size: 2.4vw;
     text-align: center;
     color: #FFFFFF;
 }
@@ -291,7 +292,7 @@ height: 10px;
     font-family: Cairo;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.2vw;
+    font-size: 1.6vw;
     text-align: center;
     
     color: #FFFFFF;
@@ -324,32 +325,234 @@ height: 10px;
     height: 50%;
     border: 5px solid white;
   }
+/************************************************************************/
+/****************** P 1 ****************************************/
 
-    .row-G .img-1{
-    background: url('https://cdn.edi-dev.tn/sfaxmedina/pic2.png') no-repeat center center;
+    .row-G .im1P1{
+    background: url('') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
-  .row-G .img-2{
-    background: url('https://cdn.edi-dev.tn/sfaxmedina/pic1.png') no-repeat center center;
+  .row-G .im2P1{
+    background: url('') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
-   .row-G .img-3{
-    background: url('https://cdn.edi-dev.tn/sfaxmedina/pic3.png') no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    
-  }
-  .row-G .img-4 {
-    background: url('https://cdn.edi-dev.tn/sfaxmedina/pic4.png') no-repeat center center;
+   .row-G .im3P1{
+    background: url('') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
-
+  .row-G .im4P1 {
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+/****************** P 2 ****************************************/
+.row-G .im1P2{
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .row-G .im2P2{
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+   .row-G .im3P2{
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .row-G .im4P2 {
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
   
+/****************** P 3 ****************************************/
+.row-G .im1P3{
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .row-G .im2P3{
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+   .row-G .im3P3{
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .row-G .im4P3 {
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+
+/****************** P 4 ****************************************/
+.row-G .im1P4{
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .row-G .im2P4{
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+   .row-G .im3P4{
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .row-G .im4P4 {
+    background: url('') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  /****************** other places ****************************************/
+  .other-m-blc{
+      width: 100%;
+      height: fit-content;
+      padding: 5% 0%;
+      background: rgba(166, 125, 115, 0.5);
+  }
+.other-m-blc  #Gtitle {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 4vw;
+        margin-top: -3.5%;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: #000000;
+}
+.other-m-blc .CARDS{
+    width: 100%;
+    height: 80%;
+    margin-top: 5%;
+    display: flex;
+}
+.other-m-blc .CARDS .Card{
+    width: 30%;
+    background-color: white;
+    height: fit-content;
+
+    word-wrap: break-word;
+    padding: 3%;
+    border: 5px solid rgba(166, 125, 115, 0.5);
+    
+}
+.other-m-blc .CARDS .Card .shape{
+    width: 40%;
+    margin: auto;
+}
+.other-m-blc .CARDS .Card .shape img{
+    border-radius: 50%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    width: 100%;
+
+}
+.other-m-blc .CARDS .Card .txt{
+    
+    padding-top: 6%; 
+}
+.other-m-blc .CARDS .Card .txt #title{
+        font-size: 3vw;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+}
+.other-m-blc .CARDS .Card .txt p{
+    padding-top: 12%;
+    color: black;
+    font-size: 1.5vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+/******************************************************/
+/************ Historie *****************/
+/******************************************************/
+.nospace{
+    margin-bottom: 0;
+}
+#histo{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+#histo .Cel{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#histo .VeriG{
+    flex-direction: column;
+}
+
+#histo .HoziG{
+flex-direction: row;
+}
+#histo .Cel  .img{
+    width: 50%;
+    margin:  5% 6%;
+}
+#histo .Cel  .img img{
+    width: 100%;
+    height: 100%;
+}
+#histo .Cel  .txt{
+    width: 50%;
+    margin:  5% 6%;
+    text-align: center;
+
+}
+#histo .Cel  .txt p{
+    font-family: 'Podkova', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 2vw;
+color: #FFFFFF;
+}
+  /******************************************************/
+/************ Interviews *****************/
+/******************************************************/
+.intev{
+width: 100%;
+height: fit-content;
+background: linear-gradient(180deg, rgba(221, 221, 221, 0) -22%, rgba(196, 196, 196, 0.25) 42.81%, rgba(196, 196, 196, 0) 100%);
+}
+.intev .Cadre{
+   width: 80%;
+   height: 50vw;
+    margin: auto;
+    margin: 10% auto;
+    border: 17px solid #000000;
+    box-sizing: border-box;
+
+}
 /******************************************************/
 /************ RESPONSIVE for image grid and text *****************/
 @media screen and (max-width: 600px) {
@@ -393,7 +596,7 @@ height: 10px;
         
         }
         .m-blc .blc-1 .txt {
-            width: 60%;
+            width: 80%;
             margin-top: 2%;
             margin-left: 10%;
         }
@@ -404,7 +607,6 @@ height: 10px;
     .row-G  {
       height: 600px; 
     }
-    
     .row-G .img{
         border: 0.5px solid white;
       height: 50%;  
@@ -430,9 +632,9 @@ height: 10px;
     #main-nav #nav ul li a {
         font-size:2vw;
     }
-   
   }
   @media screen and (max-width:760px) and (min-width:280px){
+    /******** NAV *********/
     #main-nav .elm .txt{
         font-size: 6vw;
     }
@@ -440,6 +642,7 @@ height: 10px;
         display: none;
         visibility: hidden;
     }
+    /******** HBM% *********/
     #hbm{
         display: inline-block;
         visibility: visible;
@@ -449,6 +652,7 @@ height: 10px;
         width: fit-content;
         padding: 2%;
     }
+    /******** WLC TEXT *********/
     #txt-welc h1 {
         color: white;
         font-size: 6vw;
@@ -461,4 +665,93 @@ height: 10px;
         left: 10%;
         z-index: 2;
     }
-  }
+    /************SEC 1 ****************/
+    .m-blc .blc-1  .txt h1{
+     font-size: 6vw;
+    }
+    .m-blc .blc-1  .txt p{
+        font-size: 4vw;
+        line-height: normal;
+       }
+       .m-blc .blc-1  .txt{
+           padding: 2%;
+       }
+       .blc-2 {
+           margin-top: 6%;
+       }
+    /******** CARDS *********/
+    .other-m-blc  #Gtitle {
+        font-size: 10vw;
+        margin-top: -8%;
+}
+    .other-m-blc .CARDS{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 8%;
+    }
+    .other-m-blc .CARDS .Card{
+        width: 90%;
+    }
+    .other-m-blc .CARDS .Card .txt #title{
+        font-size: 10vw;
+    }
+    .other-m-blc .CARDS .Card .txt p{
+
+        font-size: 6vw;
+    
+    }
+    /*********** Historique *************/
+    #histo .HoziG{
+        flex-direction: column;
+    }
+    #histo .Cel .img , #histo .Cel .txt {
+        width: 90%;
+    }
+    #histo .Cel .txt p {
+        font-size: 4vw;
+    }
+    /*********** Interviews *************/
+
+    .intev .Cadre{
+        
+     border: 7px solid #000000;
+
+     
+     }
+  /************* SEP ******************/
+  .SEP .cnter {
+    text-align: center;
+    padding-top: 14%;
+    }
+    .SEP .cnter h1 {
+        font-size: 8vw;
+    }
+}
+@media screen and (max-width:3000px) and (min-width:800px){
+    .f-c-h {
+        height: fit-content;
+    }
+}
+
+
+  /********************************/
+.nopadding{
+    padding: 0 !important;
+}
+.SEP button{
+    margin-top: 4%;
+    margin-bottom: 4%;
+     border: 6px solid #FFFFFF;
+     box-sizing: border-box;
+     border-radius: 10px;
+     padding: 2%;
+     font-family: Podkova;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 6vw;
+     /* identical to box height */
+     background-color: transparent;
+     color: #FFFFFF;
+ 
+ 
+     } 

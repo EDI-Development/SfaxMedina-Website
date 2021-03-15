@@ -11,4 +11,9 @@ $(document).ready(() => {
             animation: 'closeHBM 1s forwards'
         })
     });
+    $('.go').click(() => {
+        $('#hbm-nav').css({
+            animation: 'closeHBM 1s forwards'
+        })
+    });
 });
