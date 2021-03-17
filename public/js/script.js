@@ -39,10 +39,10 @@ function start() {
             Mvrai = 'Correct, Bravo !'
             THX1 = 'Votre score est '
             THX2 = 'Merci Pour Votre Participation 😁😊'
-            listQ = ['Why you watch netflix or egybest', '1+1'];
-            listTA = ['Be cause its free', '2'];
-            listF1A = ['idk why', '4'];
-            listF2A = ['Be i m nooob', '6'];
+            listQ = ['Qui a construit les murs de la ville de Sfax ?', 'La première famille à vivre dans la ville arabe ?', 'Quand la ville antique a-t-elle été fondée ?', 'Quelles sont les portes principales de la ville antique ?', "Quelle est la population de l'ancienne ville de Sfax ? ", "Combien d'écoles y a - t - il dans l'ancienne Sfax"];
+            listTA = ['Ali bin Salem Al-Bakri', 'La famille jallouli', '856-863', 'beb jebli - beb diouan', '2800', '3'];
+            listF1A = ['Abi Ibrahim Ahmed', 'la famille ben ammar', '760-720', 'beb kasbah - beb jebli', '1500', '1'];
+            listF2A = [' Ahmed al aghlabi', 'la famille affes', '800-820', 'beb charki - beb gharbi', '800', '6'];
             console.log('fr selected')
         } else {
             $('#Vbtn').html('تأكد')
@@ -52,10 +52,10 @@ function start() {
             Mvrai = 'أحسنت,صحيح'
             THX1 = 'نتيجتك هي'
             THX2 = 'شكرا لمشاركتك 😁😊'
-            listQ = ['يصيص', '1+1'];
-            listTA = ['Bثحثنبث its free', '2'];
-            listF1A = ['idkثبثy', '4'];
-            listF2A = ['Be i m nooob', '6'];
+            listQ = ['? من بنى أسوار مدينة صفاقس ?', 'من أول عائلة سكنت في المدينة العربي ?', 'متى تأسست المدينة العتيقة ?', 'ماهي الأبواب الرئيسية للمدينة العتيقة ? ', 'كم عدد سكان مدينة صفاقس العتيقة ?', 'كم عدد المدارس في صفاقس العتيقة'];
+            listTA = ['علي بن سالم البكري', 'عائلة الجلولي', '856م-863م', '.باب الجبلي وباب الديوان', '2800', '3'];
+            listF1A = [' احمد الاغلبي', 'عائلة بن عمار', '720م-760م', '.باب القصبة وباب الجبلي', '1500', '1'];
+            listF2A = ['ابي ابراهيم احمد ', 'عائلة عفاس', '800م-820م', '.باب الشرقي وباب الغربي', '600', '6'];
             console.log('ar selected')
 
         }

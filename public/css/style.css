@@ -1265,6 +1265,14 @@ margin-left: 5%;
         margin-left: 1%;
         opacity: 0;
         }
+
+        /************ screen home ***/
+        .SH1{
+            font-size: 10vw;
+        }.SH3{
+            font-size: 6vw;
+            text-decoration: underline;
+        }
 }
 @media screen and (max-width:3000px) and (min-width:800px){
     .f-c-h {
@@ -1282,4 +1290,15 @@ margin-left: 5%;
         text-align: center;
         font-size: 0.9rem;
         font-weight: lighter;    
+}
+
+.SH1{
+    font-size: 6vw;
+}
+.SH2{
+    font-size: 4vw;
+}
+.SH3{
+    font-size: 4vw;
+    font-family: 'cairo';
 }
