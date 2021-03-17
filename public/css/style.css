@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 body{
-    height: 5000px;
+   
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -686,6 +686,351 @@ background: linear-gradient(180deg, rgba(221, 221, 221, 0) -22%, rgba(196, 196, 
     box-sizing: border-box;
 
 }
+
+  /********************************/
+.nopadding{
+    padding: 0 !important;
+}
+.SEP button{
+    margin-top: 4%;
+    margin-bottom: 4%;
+     border: 6px solid #FFFFFF;
+     box-sizing: border-box;
+     border-radius: 10px;
+     padding: 2%;
+     font-family: Podkova;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 6vw;
+     /* identical to box height */
+     background-color: transparent;
+     color: #FFFFFF;
+ 
+ 
+     } 
+
+
+
+
+
+
+
+     
+#pub{
+    background-color: #111111;
+    height: fit-content;
+    padding: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+    height: fit-content;
+   position: relative;
+   margin-top: -5px;
+   bottom: -1px;
+}
+#pub div{
+    text-align: center;
+    margin: auto;
+}
+#pub div a{
+    color: white;
+    font-size: 13px;
+    font-family:'poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; 
+    width: 50%;
+}
+#pub div a img{
+    width: 8%;
+}
+#pub #p-cont{
+    padding-bottom: 2px;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+  }
+  .loader-wrapper .warpper {
+    width: 40vw;
+    animation: rot 4s infinite ease-in-out;
+
+  }
+  @keyframes rot {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    50% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+  .loader-wrapper .warpper img{
+      width: 100%;
+      height: 100%;
+
+  }
+  .absolute{
+      position: absolute !important;
+      bottom: 0px  !important;
+  }
+
+
+  /********************************************************************************************************* */
+/********************************************************************************************************* */
+/**************************************      Q    C    M       ******************************************* */
+/********************************************************************************************************* */
+/********************************************************************************************************* */
+body.QCM {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/58/Grande_Mosqu%C3%A9e_de_Sfax_09.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+        
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.Begin{
+    width: 80vw;
+    height: 70vh;
+    background-color: whi;
+    margin: 3% auto;
+    border-radius: 1%;
+    border: 2px solid white inset;
+    margin-bottom: 0px;
+    height: fit-content;
+}
+.Begin .T1{
+    text-align: center;
+    color: white;
+    font-family: 'Changa';
+    font-size: 4rem;
+    padding-top: 2%;
+
+}
+.Begin .T2{
+    text-align: center;
+    color: white;
+    font-family: 'Changa';
+    font-size: 2.5rem;
+    margin-top: 3%;
+}
+.Begin .OPT{
+    margin-top: 1%;
+    text-align: center;
+    margin-left: -5%;
+}
+.Begin .OPT span{
+    margin-left: 5%;
+    color: white;
+    font-size: 2rem;
+    margin-right: 1%;
+    font-family: poppins;
+}
+
+
+input[type='radio'] {
+  height: 30px;
+  width: 30px;
+  vertical-align: text-bottom;
+}
+.Begin .btnST{
+    margin-top: 5%;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 1% 3%;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    font-family: poppins;
+    font-size: 2rem;
+}
+.cdr {
+    width: 100%;
+    margin: auto;
+    
+    text-align: center;
+    margin-top: 5%;
+}
+ .err{
+    text-align: center;
+    color: white;
+    margin-top: 8%;
+    padding: 0%;
+    font-size: 2rem;
+    font-family: poppins;
+    width: 0px;  
+    overflow: hidden;
+    height: 0px;
+    margin: auto;
+    background-color: #FF4136;
+    border-radius: 20px ;
+}
+.err .img
+.err .img img{
+    width: 100%;
+}
+.Question{
+    width: 80%;
+    height: 650px;
+    margin: auto;
+    margin-top: 7%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2%;
+    display: none;
+}
+.Question .Q{
+   
+    text-align: center;
+}
+.Question .Q h1{
+    color: #111111;
+    font-size: 4rem;
+    font-family: poppins;
+}
+.Question .Q h2{
+    color: #111111;
+    font-size: 2.5rem;
+    font-family: poppins;
+}
+.Question .AG {
+    padding-top: 2%;
+   width: fit-content;
+   
+   margin: auto;
+    
+}
+.Question .AG .A{
+    margin-top: .5%;
+    display: flex;
+    align-items: center;    
+    width: 120%;
+}
+.Question .AG .A span{
+    font-family: poppins;
+    font-size: 2rem;
+    user-select: none;
+    margin-left: 1%;
+}
+.Question .AG .A input{
+vertical-align: text-bottom;
+height: 25px;
+width: 25px;
+}
+.Question #Vbtn{
+    width: fit-content;
+    height: 60px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    margin: auto;
+    font-weight: bold;
+    color: #111111;
+    font-size: 2rem;
+    font-family: 'poppins';
+    padding: 0% 6%;
+    border: 2px solid black;
+}
+
+@keyframes Start{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+/**** error message ***/
+.erMSG{
+    position: absolute;
+    left: 2px;
+    bottom: 200px;
+    width: 800px;
+    height: 60px;
+   
+    overflow: hidden;
+    /*display: inline-flex !important;*/
+    align-items: center;
+    left: 30vw;
+    border-radius: 25px;
+    width: 0%;
+    display: none;
+}
+.erMSG #txt{
+width: 80%;
+
+}
+.erMSG #txt h1{
+color: white;
+font-family: Offside;
+font-size: 2rem;
+margin-left: 1%;
+opacity: 0;
+}
+
+.erMSG #img{
+    width: 6%;
+margin-left: 5%;
+}
+.erMSG #img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.Rsult{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 7%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 6%;
+    display: none ;
+    opacity: 0;
+}
+.Rsult h1{
+    text-align: center;
+    color: navy;
+    font-family: 5rem;
+    font-family: 'poppins';
+}
+.Rsult h2{
+    text-align: center;
+    color: navy;
+    font-family: 3rem;
+    font-family: 'poppins';
+}
+
+
+
+
+
 /******************************************************/
 /************ RESPONSIVE for image grid and text *****************/
 @media screen and (max-width: 600px) {
@@ -899,106 +1244,42 @@ background: linear-gradient(180deg, rgba(221, 221, 221, 0) -22%, rgba(196, 196, 
     .SEP .cnter h1 {
         font-size: 8vw;
     }
+    /********** error mesasge */
+    .erMSG {
+    position: absolute;
+    left: 2px;
+    bottom: 200px;
+    width: 300px;
+    height: 60px;
+    overflow: hidden;
+    display: inline-flex !important;
+    align-items: center;
+    left: 0vw;
+    border-radius: 25px;
+    width: 0%;
+    }
+    .erMSG #txt h1{
+        color: white;
+        font-family: Offside;
+        font-size: 1.5rem;
+        margin-left: 1%;
+        opacity: 0;
+        }
 }
 @media screen and (max-width:3000px) and (min-width:800px){
     .f-c-h {
         height: fit-content;
     }
 }
-
-
-  /********************************/
-.nopadding{
-    padding: 0 !important;
-}
-.SEP button{
-    margin-top: 4%;
-    margin-bottom: 4%;
-     border: 6px solid #FFFFFF;
-     box-sizing: border-box;
-     border-radius: 10px;
-     padding: 2%;
-     font-family: Podkova;
-     font-style: normal;
-     font-weight: bold;
-     font-size: 6vw;
-     /* identical to box height */
-     background-color: transparent;
-     color: #FFFFFF;
- 
- 
-     } 
-
-
-
-
-
-
-
-     
-#pub{
-    background-color: #111111;
-    height: fit-content;
-    padding: 5px;
-    padding-right: 0px;
-    padding-left: 0px;
-    width: 100%;
-    height: fit-content;
-   position: relative;
-   margin-top: -5px;
-   bottom: -1px;
-}
-#pub div{
-    text-align: center;
-    margin: auto;
-}
-#pub div a{
-    color: white;
-    font-size: 13px;
-    font-family:'poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center; 
-}
-#pub #p-cont{
-    padding-bottom: 2px;
-}
-
-.loader-wrapper {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    display:flex;
-    justify-content: center;
+.flx{
+    display: flex;
     align-items: center;
-    flex-direction: column;
-    z-index: 5;
-  }
-  .loader-wrapper .warpper {
-    width: 40vw;
-    animation: rot 4s infinite ease-in-out;
-
-  }
-  @keyframes rot {
-    0% {
-        transform: rotate(360deg);
-    }
-
-    50% {
-        transform: rotate(-360deg);
-    }
-
-    100% {
-        transform: rotate(0deg);
-    }
 }
-  .loader-wrapper .warpper img{
-      width: 100%;
-      height: 100%;
-
-  }
-  .absolute{
-      position: absolute !important;
-      bottom: 0px  !important;
-  }
+.add{
+    
+        color: white;
+        font-family: 'Poppins';
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: lighter;    
+}

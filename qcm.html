@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sfax Medina</title>
+    <title>Sfax Medina QCM</title>
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Offside&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
     <link rel="icon" href="https://cdn.discordapp.com/attachments/814089641677291570/819253081257803806/unknown.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="public/css/csshake.min.css">
+
 </head>
 
-<body>
-
+<body class="QCM">
     <div class="loader-wrapper">
         <center>
             <h1 style="font-family: 'poppins'; display: block;font-size: 5vw;margin-bottom: 5%;">SFAX MEDINA WEBSITE FR
@@ -239,376 +241,84 @@
 
     </div>
 
-    <!--    Nav-Bar    -->
+    <div class="Begin">
+        <h1 class="T1 ">Sfax Medina Quizz</h1>
+        <h1 class="T2">choisir la Langue</h1>
 
-    <nav id="main-nav">
-        <div class="elm">
-            <h1 class="txt">Sfax Medina</h1>
-        </div>
-        <div id="nav" class="elm">
-            <ul>
-                <li> <a href="#bg">Acceuil</a> </li>
-                <li> <a href="#ME">Meilleur endroit</a> </li>
-                <li> <a href="#histo">Histoire</a> </li>
-                <li> <a href="#intev">Entrevues</a></li>
-                <li> <a href="#f-c-h">Secrets</a></li>
-            </ul>
-        </div>
-        <div id="hbm" class="elm">
-            <svg width="50" height="32" viewBox="0 0 56 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line y1="4" x2="56" y2="4" stroke="white" stroke-width="8" />
-                <line y1="19" x2="56" y2="19" stroke="white" stroke-width="8" />
-                <line y1="34" x2="56" y2="34" stroke="white" stroke-width="8" />
-            </svg>
-
-
+        <div class="OPT">
+            <span>Francais</span>
+            <input type="radio" name="lang" id="r1">
+            <span>عربي</span>
+            <input type="radio" name="lang" id="r2">
         </div>
 
-    </nav>
-    <!--    HBL-Bar    -->
+        <center>
+            <button onclick="start()" class="btnST shake-opacity shake-constant--hover">Debut</button>
 
-    <div id="hbm-nav">
-        <div id="close">
-            X
-        </div>
-        <ul>
-            <li> <a class="go" href="#bg">Acceuil</a> </li>
-            <li> <a class="go" href="#ME">Meilleur endroit</a> </li>
-            <li> <a class="go" href="#histo">Histoire</a> </li>
-            <li> <a class="go" href="#intev">Entrevues</a></li>
-            <li> <a class="go" href="#f-c-h">Secrets</a></li>
-        </ul>
+        </center>
+
     </div>
 
-    <!--    Header  -->
-    <header id="bg">
-        <div id="txt-welc">
-            <h1 style="font-family: 'Podkova' , serif;font-weight: lighter;"> <span
-                    style="font-weight: bold;color: rgb(255, 255, 255);">Welcome</span> To
-                Sfax Medina
-            </h1>
-            <h1 style="font-family: 'Podkova' , serif;font-weight: lighter;"> <span
-                    style="font-weight: bold;color: rgb(255, 255, 255);">Bonjour</span> Dans Sfax
-                Medina</h1>
-            <h1 style=" font-family: 'Podkova' , serif;font-weight: lighter;"> <span
-                    style="font-weight: bold;color: rgb(255, 255, 255);">Hola</span> en Sfax Medina
-            </h1>
-            <h1 style=" font-family: 'Podkova' , serif;font-weight: lighter;"> <span
-                    style="font-weight: bold;color: rgb(255, 255, 255);">Hallo</span> in Sfax Medina
-            </h1>
-            <h1 style=" font-family: 'Changa' , sans-serif !important ;font-weight: lighter;"> <span
-                    style="font-weight: bold;color: rgb(255, 255, 255);">مرحبًا بكم</span>
-                في
-                مدينة
-                صفاقس
-            </h1>
+    <div class="Question">
+        <div class="Q">
+            <h1> </h1>
+            <h2 id="q"></h2>
         </div>
-        <!-- Photo Grid -->
-        <div class="row" id="r1">
-            <div class="img" id="cel1"></div>
-            <div id="cel2"></div>
-        </div>
-        <div class="row" id="r2">
-            <div id="cel1"></div>
-            <div id="cel2"></div>
-            <div id="cel3"></div>
-
-        </div>
-
-    </header>
-    <main>
-        <!--    Sep    -->
-        <div class="SEP " id="ME">
-            <div class="cnter">
-                <h1>Meilleur endroit</h1>
+        <div class="AG">
+            <div class="A">
+                <input type="radio" name="A" id="A1">
+                <span id="AT1"></span>
+            </div>
+            <div class="A">
+                <input type="radio" name="A" id="A2">
+                <span id="AT2"></span>
+            </div>
+            <div class="A">
+                <input type="radio" name="A" id="A3">
+                <span id="AT3"></span>
             </div>
         </div>
-        <div class="m-blc">
-            <div class="blc-1">
-                <div class="Mimg">
-                    <img src="https://cdn.edi-dev.tn/sfaxmedina/SEC1/pic1.jpg" alt="">
-                    <div class="txt">
-                        <h1>Kasbah de Sfax </h1>
-                        <p>La kasbah de Sfax , également appelée mahress ou ribat , est une kasbah située dans l'angle
-                            sud-ouest de la médina de Sfax1.
-
-                            Depuis sa construction, elle a servi à plusieurs fins durant l'histoire de la ville : tour
-                            de contrôle pour les Aghlabides, siège de l'administration locale et finalement caserne pour
-                            des forces armées1. De nos jours, elle accueille le musée de l'architecture traditionnelle.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="blc-2">
-                <div class="row-G">
-                    <div class="img img-1 im1P1"></div>
-                    <div class="img img-2 im2P1"></div>
-                    <div class="img img-3 im3P1"></div>
-                    <div class="img img-4 im4P1"></div>
-                </div>
-            </div>
-        </div>
-        <div class="m-blc">
-            <div class="blc-1">
-                <div class="Mimg">
-                    <img src="https://cdn.edi-dev.tn/sfaxmedina/SEC2/pic1.jpg" alt="">
-                    <div class="txt" ">
-                        <h1>Les murs de la ville </h1>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class=" blc-2">
-                        <div class="row-G ">
-                            <div class="img img-1 im1P2"></div>
-                            <div class="img img-2 im2P2"></div>
-                            <div class="img img-3 im3P2"></div>
-                            <div class="img img-4 im4P2"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="m-blc">
-                    <div class="blc-1">
-                        <div class="Mimg">
-                            <img src="https://cdn.edi-dev.tn/sfaxmedina/SEC3/pic1.jpg" alt="">
-                            <div class="txt">
-                                <h1>Grand Mosqueé</h1>
-                                <p>
-                                    La Grande Mosquée de Sfax est la première mosquée établie dans la ville historique
-                                    de Sfax,
-                                    Tunisie. Il remonte à la même année de la construction de l'enceinte de la ville qui
-                                    est en
-                                    849. Il a été construit pendant le règne des Aghlabides de l'Ifriqiya au IXe siècle
-                                    et a
-                                    servi de
-                                    état vassal du califat abbasside.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blc-2">
-                        <div class="row-G">
-                            <div class="img img-1 im1P3"></div>
-                            <div class="img img-2 im2P3"></div>
-                            <div class="img img-3 im3P3"></div>
-                            <div class="img img-4 im4P3"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="m-blc">
-                    <div class="blc-1">
-                        <div class="Mimg">
-                            <img src="https://cdn.edi-dev.tn/sfaxmedina/SEC4/pic1.jpg" alt="">
-                            <div class="txt">
-                                <h1>Dar Jellouli Museum
-                                </h1>
-                                <p>
-                                    Le musée Dar Jellouli, également connu sous le nom de musée régional des arts et des
-                                    traditions populaires, est un art
-                                    musée situé en Tunisie. Elle a été fondée en 1939 par le savant français sur l'art
-                                    maghrébin
-                                    Lucien Golvin, dans un palais situé au cœur de l'ancienne ville de Sfax.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blc-2">
-                        <div class="row-G">
-                            <div class="img img-1 im1P4"></div>
-                            <div class="img img-2 im2P4"></div>
-                            <div class="img img-3 im3P4"></div>
-                            <div class="img img-4 im4P4"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="other-m-blc">
-                    <h1 id="Gtitle">D'autres lieux
-                    </h1>
-
-                    <div class="Blc-C">
-                        <div class="card">
-                            <div class="img">
-                                <img src="https://cdn.edi-dev.tn/sfaxmedina/histo/pic6.jpg" alt="">
-                            </div>
-                            <div class="title">
-                                <h1>Souk el haddadin</h1>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <img src="https://cdn.edi-dev.tn/sfaxmedina/other/pic1.jpg" alt="">
-                            </div>
-                            <div class="title">
-                                <h1>cafe douan</h1>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <img src="https://cdn.edi-dev.tn/sfaxmedina/other/pic2.jpg" alt="">
-                            </div>
-                            <div class="title">
-                                <h1>Foundok el haddadin</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Blc-C">
-                        <div class="card">
-                            <div class="img">
-                                <img src="https://cdn.edi-dev.tn/sfaxmedina/other/pic3.png" alt="">
-                            </div>
-                            <div class="title">
-                                <h1>Cafe kamour</h1>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <img src="https://cdn.edi-dev.tn/sfaxmedina/other/pic6.jpg" alt="">
-                            </div>
-                            <div class="title">
-                                <h1>Souk Erbaa
-                                </h1>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <img src="https://cdn.edi-dev.tn/sfaxmedina/other/pic5.jpg" alt="">
-                            </div>
-                            <div class="title">
-                                <h1>Sidi Elyes Mosque
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--    Sep    -->
-                <div class="SEP nospace " id="histo">
-                    <div class="cnter">
-                        <h1>Histoire</h1>
-                    </div>
-                </div>
-                <div id="histo">
-                    <div class="Cel HoziG">
-                        <div class="img ">
-                            <img class="im1" src="https://cdn.edi-dev.tn/sfaxmedina/histo/pic1.png" alt="">
-                        </div>
-                        <div class="txt">
-                            <p>Sfax , deuxième ville et centre économique de Tunisie, est une ville portuaire de l'est
-                                du
-                                pays
-                                située à environ 270 kilomètres de Tunis. Riche de ses industries et de son port, la
-                                ville
-                                joue
-                                un rôle économique de premier plan avec l'exportation de l'huile d'olive et du poisson
-                                frais
-                                ou
-                                congelé. Sfax est une cité d'affaires et compte certains sites à vocation touristique,
-                                tels
-                                que
-                                la médina et Thyna, malgré la présence des usines de traitement du phosphate.</p>
-                        </div>
-                    </div>
-                    <div class="Cel HoziG">
-                        <div class="txt">
-                            <p>Sfax, ancienne Taparura romaine, est rebâtie par les Aghlabides au ixe siècle à partir
-                                des
-                                matériaux de la ville romaine située à environ trois kilomètres. Ils construisent les
-                                remparts
-                                qui donnent à la médina sa configuration actuelle.
-
-                                La cité doit résister aux Hilaliens venus d'Égypte en 1057 et, de 1095 à 1099, elle
-                                constitue un
-                                petit émirat indépendant11. Elle passe, comme la plupart des villes côtières, sous la
-                                domination
-                                du roi normand Roger II de Sicile en 114812, avant d'être réintégrée à la sphère
-                                musulmane
-                                par
-                                les Almohades d'Abd al-Mumin en 1159 ; ceci fait suite à trois ans d'une révolte amorcée
-                                par
-                                Omar, avec notamment le massacre des chrétiens de la cité le 25 février 1156</p>
-                        </div>
-                        <div class="img">
-                            <img class="im2" src="https://cdn.edi-dev.tn/sfaxmedina/histo/pic2.png" alt="">
-                        </div>
-
-                    </div>
-                    <div class="Cel HoziG">
-                        <div class="img">
-                            <img class="im3" src="https://cdn.edi-dev.tn/sfaxmedina/histo/pic3.png" alt="">
-                        </div>
-                        <div class="txt">
-                            <p>Sfax connaît l'insurrection menée par Ali Ben Ghedhahem en 1864 et celle de 1881 pour
-                                refuser
-                                le
-                                protectorat français. Les troupes françaises la bombardent alors pour en venir à bout14.
-
-                                Durant la Seconde Guerre mondiale, elle est également bombardée par les Alliés pendant
-                                la
-                                campagne de Tunisie alors qu'elle est occupée par les troupes de l'Axe en 1942-1943.</p>
-                        </div>
-                    </div>
-                    <div class="Cel HoziG">
-                        <div class="img">
-                            <img class="im1" src="https://cdn.edi-dev.tn/sfaxmedina/histo/pic4.png" alt="">
-                        </div>
-                        <div class="img">
-                            <img class="im2" src="https://cdn.edi-dev.tn/sfaxmedina/histo/pic6.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="Cel VeriG">
-                        <div class="txt">
-                            <p>Sfax est la ville où s'illustrent deux grands militants de l'indépendance nationale
-                                assassinés
-                                par l'organisation terroriste coloniale de la Main rouge : le syndicaliste Farhat Hached
-                                (natif
-                                de l'archipel des Kerkennah) qui est abattu le 5 décembre 195215 et le responsable
-                                destourien
-                                Hédi Chaker qui est tué le 13 septembre 1953</p>
-                        </div>
-                        <div class="img">
-                            <img class="im3" src="https://cdn.edi-dev.tn/sfaxmedina/histo/pic5.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!--    Sep    -->
-                <div class="SEP nospace " id="intev">
-                    <div class="cnter">
-                        <h1>Entrevues</h1>
-                    </div>
-                </div>
-                <div class="intev">
-                    <div class="Cadre"></div>
-
-                </div>
-                <!--    Sep    -->
-                <div class="SEP nospace f-c-h" id="f-c-h">
-                    <div class="cnter nopadding">
-                        <h1>Secrets</h1>
-                        <button onclick="openQZ()">Debut</button>
-                    </div>
-                </div>
-    </main>
-
-
-
-    <footer>
-
-
-        <div id="pub" class="absolute ">
-            <div id="p-cont">
-                <a href="https://edi-dev.tn">Created And Designed By </a>
-                <br>
-                <a href="https://edi-dev.tn" target="_blank">
-                    <img src="https://cdn.edi-dev.tn/sfaxmedina/logo.png" alt="">
-
-
-                </a>
-            </div>
-            <h2 class="add">EDI DEVEOPMENT BY YESSINE TRIGUI</h2>
-
+        <div class="cdr">
+            <button id="Vbtn" onclick="verif()"></button>
         </div>
 
+    </div>
+    <div id="merr" class="erMSG shake shake-constant">
+        <div id="img">
+            <img src="" alt="">
+        </div>
+        <div id="txt">
+            <h1>Merci De choisir une option !</h1>
+        </div>
+
+    </div>
+    <div class="Rsult">
+        <h1 class="shake-slow shake-constant"></h1>
+        <h2 class="shake-slow shake-constant">Merci Pour Votre Participation 😁😊</h2>
+    </div>
+    <!--
+    <div class="cdr">
+        <h1 class="err" id="err1">
+
+        </h1>
+        <div class="img">
+            <img src="https://edi-dev.tn/cdn/sfaxmedina/cancel.svg" alt="">
+        </div>
+    </div>-->
+    <div id="pub" class="absolute " style="position: absolute !important;">
+        <div id="p-cont">
+            <a href="https://edi-dev.tn">Created And Designed By </a>
+            <br>
+            <a href="https://edi-dev.tn" target="_blank">
+                <img src="https://cdn.edi-dev.tn/sfaxmedina/logo.png" alt="">
 
 
+            </a>
+        </div>
+        <h2 class="add">EDI DEVEOPMENT BY YESSINE TRIGUI</h2>
 
-    </footer>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="public/js/script.js"></script>
